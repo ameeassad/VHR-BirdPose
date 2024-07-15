@@ -10,3 +10,4 @@ pose_estimation/hrnet/data/ak_P3_bird/images
 pose_estimation/code/hrnet/models/pytorch/imagenet/*
 pose_estimation/code/hrnet/models/pytorch/pose_coco/*
 pose_estimation/code/hrnet/models/pytorch/pose_mpii/*
+.DS_Store
