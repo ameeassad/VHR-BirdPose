@@ -1,5 +1,12 @@
 pose_estimation/dataset
 pose_estimation/mmpose/data
-pose_estimation/hrnet/data
-pose_estimation/code/hrnet/models/pytorch/imagenet
-pose_estimation/code/hrnet/models/pytorch/pose_coco
+pose_estimation/hrnet/data/ak_P1
+pose_estimation/hrnet/data/ak_P2
+pose_estimation/hrnet/data/ak_P3_amphibian
+pose_estimation/hrnet/data/ak_P3_fish
+pose_estimation/hrnet/data/ak_P3_mammal
+pose_estimation/hrnet/data/ak_P3_reptile
+pose_estimation/hrnet/data/ak_P3_bird/images
+pose_estimation/code/hrnet/models/pytorch/imagenet/*
+pose_estimation/code/hrnet/models/pytorch/pose_coco/*
+pose_estimation/code/hrnet/models/pytorch/pose_mpii/*
