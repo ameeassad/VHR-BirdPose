@@ -3,7 +3,7 @@ CUDNN:
   BENCHMARK: true
   DETERMINISTIC: false
   ENABLED: true
-DATA_DIR: ''
+DATA_DIR: './'
 GPUS: [0] #(0,1) ## Change based on number of GPUs
 OUTPUT_DIR: 'output/ak_P3_bird/vhr_birdpose_b' #'output/ak_P3_reptile' ## Change based on Protocol
 LOG_DIR: 'log/ak_P3_bird/vhr_birdpose_b' #'log/ak_P3_reptile' ## Change based on Protocol

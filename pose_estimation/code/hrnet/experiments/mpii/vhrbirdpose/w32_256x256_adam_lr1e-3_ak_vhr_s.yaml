@@ -3,10 +3,10 @@ CUDNN:
   BENCHMARK: true
   DETERMINISTIC: false
   ENABLED: true
-DATA_DIR: ''
+DATA_DIR: './'
 GPUS: [0] #(0,1) ## Change based on number of GPUs
-OUTPUT_DIR: 'output/ak_P3_bird/vhr_birdpose_b' #'output/ak_P3_reptile' ## Change based on Protocol
-LOG_DIR: 'log/ak_P3_bird/vhr_birdpose_b' #'log/ak_P3_reptile' ## Change based on Protocol
+OUTPUT_DIR: 'output/ak_P3_bird/vhr_birdpose_s' #'output/ak_P3_reptile' ## Change based on Protocol
+LOG_DIR: 'log/ak_P3_bird/vhr_birdpose_s' #'log/ak_P3_reptile' ## Change based on Protocol
 WORKERS: 24
 PRINT_FREQ: 100
 
@@ -26,7 +26,7 @@ MODEL:
   INIT_WEIGHTS: true
   NAME: pose_vhr
   NUM_JOINTS: 23
-  PRETRAINED: ~ #'models/pytorch/imagenet/hrnet_w32-36af842e.pth'
+  PRETRAINED: 'models/pytorch/mpii/VHR-BirdPose-S.pth'
   TARGET_TYPE: gaussian
   IMAGE_SIZE:
   - 256
