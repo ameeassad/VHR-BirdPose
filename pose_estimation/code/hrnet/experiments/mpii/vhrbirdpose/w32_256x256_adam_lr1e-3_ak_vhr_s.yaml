@@ -7,7 +7,7 @@ DATA_DIR: './'
 GPUS: [0] #(0,1) ## Change based on number of GPUs
 OUTPUT_DIR: 'output/ak_P3_bird/vhr_birdpose_s' #'output/ak_P3_reptile' ## Change based on Protocol
 LOG_DIR: 'log/ak_P3_bird/vhr_birdpose_s' #'log/ak_P3_reptile' ## Change based on Protocol
-WORKERS: 24
+WORKERS: 14
 PRINT_FREQ: 100
 
 DATASET:
